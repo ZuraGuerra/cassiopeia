@@ -7,11 +7,12 @@
 				<div class="col-xs-12 col-md-3">
 					<div class="pull-left">
 						<!-- start logo -->
-						{{#if @blog.logo}}
+						<div class="glitch logo" data-text="{{@blog.title}}">{{@blog.title}}</div>
+						{{!-- {{#if @blog.logo}}
 						<a class="logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}"></a>
 						{{else}}
 						<a class="logo" href="{{@blog.url}}"><h1>{{@blog.title}}</h1></a>
-						{{/if}}
+						{{/if}} --}}
 						<!-- end logo -->
 					</div>
 				</div>
