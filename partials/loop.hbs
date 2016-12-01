@@ -13,14 +13,14 @@
 								<a href="{{url}}" alt="{{{title}}}" title="{{{title}}}"><img src="{{asset "images/no-image.jpg"}}" /></a>
 							{{/if}}
 							{{#if featured}}
-								<div class="cp-featured"><i class="glyphicon glyphicon-flash"></i></div>
+								<div class="cp-featured"><i class="glyphicon glyphicon-star"></i></div>
 							{{/if}}
 							<div class="post-content">
 								{{#if "tags"}}
 									<div class="tags">{{tags separator=" | "}}</div>
 								{{/if}}
-								<div class="postone-title">	
-									<h2><a href="{{url}}" alt="{{{title}}}" title="{{{title}}}">{{{title}}}</a></h2>
+								<div class="postone-title">
+									<h2><a href="{{url}}" alt="{{{title}}}" title="{{{title}}}"><span class="post-title-bg">{{{title}}}</span></a></h2>
 								</div>
 								<div class="meta-info">
 									{{#author}}
@@ -37,6 +37,7 @@
 										<i class="fa fa-comment"></i>
 										<a href="{{url}}#disqus_thread">0 Comments</a>
 									</span>
+									huehue
 								</div>
 							</div>
 						</article>
@@ -50,7 +51,7 @@
 										<a href="{{url}}" alt="{{{title}}}" title="{{{title}}}"><img src="{{asset "images/no-image.jpg"}}" /></a>
 									{{/if}}
 									{{#if featured}}
-										<div class="cp-featured"><i class="glyphicon glyphicon-flash"></i></div>
+										<div class="cp-featured"><i class="glyphicon glyphicon-star"></i></div>
 									{{/if}}
 								</div>
 								<div class="col-sm-8 post-content">

@@ -18,51 +18,47 @@
 									<div class="tags">{{tags separator=" | "}}</div>
 								{{/if}}
 								<div class="postone-title">
-									<h2><a href="{{url}}" alt="{{{title}}}" title="{{{title}}}">{{{title}}}</a></h2>
+									<h2><a href="{{url}}" alt="{{{title}}}" title="{{{title}}}"><span class="post-title-bg">{{{title}}}</span></a></h2>
 								</div>
 								<div class="meta-info">
 									{{#author}}
 									<span class="author">
-										<i class="fa fa-user"></i>
 										<a href="{{url}}">{{name}}</a>
 									</span>
 									{{/author}}
-									<span class="date">
-										<i class="fa fa-clock-o"></i>
-										{{date format="MMM DD, YYYY"}}
-									</span>
-									<span class="comment">
-										<i class="fa fa-comment"></i>
-										<a href="{{url}}#disqus_thread">0 Comments</a>
-									</span>
 								</div>
 							</div>
 							{{#if featured}}
-								<div class="cp-featured"><i class="glyphicon glyphicon-flash"></i></div>
+								<div class="cp-featured"><i class="glyphicon glyphicon-star"></i></div>
 							{{/if}}
 						</article>
 						{{else}}
 						<article class="col-md-6 post-other">
 							{{#if image}}
-								<a href="{{url}}" alt="{{{title}}}" title="{{{title}}}"><img src="{{image}}" /></a>
+								{{!-- <a href="{{url}}" alt="{{{title}}}" title="{{{title}}}"><img src="{{image}}" /></a> --}}
+								<a href="{{url}}" alt="{{{title}}}" title="{{{title}}}">
+									<div class="post-cover-bg" style="background-image:url({{image absolute="true"}});">
+										<img src="{{image}}" style="visibility:hidden;"/>
+									</div>
+								</a>
 							{{else}}
 								<a href="{{url}}" alt="{{{title}}}" title="{{{title}}}"><img src="{{asset "images/no-image.jpg"}}" /></a>
 							{{/if}}
 							<div class="post-content">
 								<h3><a href="{{url}}" alt="{{{title}}}" title="{{{title}}}">{{{title}}}</a></h3>
 								<div class="meta-info clearfix">
-									<span class="date pull-left">
+									{{!-- <span class="date pull-left">
 										<i class="fa fa-clock-o"></i>
 										{{date format="MMM DD, YYYY"}}
 									</span>
 									<span class="comment pull-right">
 										<i class="fa fa-comment"></i>
 										<a href="{{url}}#disqus_thread">0 Comments</a>
-									</span>
+									</span> --}}
 								</div>
 							</div>
 							{{#if featured}}
-								<div class="cp-featured"><i class="glyphicon glyphicon-flash"></i></div>
+								<div class="cp-featured"><i class="glyphicon glyphicon-star"></i></div>
 							{{/if}}
 						</article>
 						{{/if}}

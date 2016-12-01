@@ -141,7 +141,7 @@ cite {
 /* ------- navigation ------- */
 .navbar-default {
     background-color: #f7f7f7;
-    background-image: url("https://secure.static.tumblr.com/6d52db82ce7e86e630112a44179b05e8/lmim0mm/raRn76q01/tumblr_static_tumblr_static_dqu5vepyj74sk8000ccokw44g_640.png");
+    background-image: url("http://orig11.deviantart.net/a6ee/f/2011/267/d/8/black_grid_lines_by_villasiris-d4ard5r.png");
     border-color: #e7e7e7;
 }
 
@@ -374,7 +374,7 @@ h6 a:hover {
 .meta-info a:active,
 .meta-info a:link,
 .tags a:visited {
-	color: #a95656;
+	color: #ff0000;
 }
 
 .tags a:hover {
@@ -396,6 +396,16 @@ h6 a:hover {
 	margin-bottom: 1.6rem;
 }
 
+.post-cover-bg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  background-position: center;
+  background-size: cover;
+  background-color: #e1b8ff;
+  background-blend-mode: color-burn;
+}
+
 .post-one .post-content {
 	position: absolute;
 	bottom: 10px;
@@ -405,6 +415,7 @@ h6 a:hover {
 
 .postone-title {
 	background: rgba(255,255,255,0.7);
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/71/64/83/71648323bd6589e2f93eea87f44283fa.jpg");
 	padding: 20px 10px;
 	border-top: 2px solid #000;
 	border-bottom: 2px solid #000;
@@ -467,6 +478,13 @@ h6 a:hover {
 
 .post-footer {
 	margin-top: 1.6rem;
+  background-color:white;
+  background-image:none;
+}
+
+.post-title-bg {
+  background-color:#fee900;
+  box-shadow: 5px 0 0 #fee900,-5px 0 0 #fee900;
 }
 
 .cp-author {
@@ -575,11 +593,11 @@ h6 a:hover {
 }
 
 .cp-featured i {
-	background: #FFFF00;
+	background: #fee900;
 	border-radius: 100%;
     height: 30px;
     width: 30px;
-	color: #fe0000;
+	color: black;
 	text-align: center;
     line-height: 30px;
 }
@@ -721,7 +739,7 @@ h6 a:hover {
 }
 
 .author-meta i {
-	background: #fe0000;
+	background: #000;
     height: 25px;
     width: 25px;
 	margin-right: 5px;
@@ -731,6 +749,12 @@ h6 a:hover {
 
 .author-meta a {
 	color: #000;
+}
+
+.author a {
+  letter-spacing: 0.4rem;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 .tag-header span {
@@ -811,7 +835,7 @@ h6 a:hover {
 }
 
 #cp-contacts {
-	background: #f7f7f7;
+	background: #fff;
 }
 
 .cp-contacts {
@@ -888,7 +912,7 @@ h6 a:hover {
 /* ------- Footer ------- */
 
 footer {
-    background-color: #f7f7f7;
+    background-image:url("http://orig11.deviantart.net/a6ee/f/2011/267/d/8/black_grid_lines_by_villasiris-d4ard5r.png");
     font-size: 1.4rem;
 	padding: 5rem;
 }
