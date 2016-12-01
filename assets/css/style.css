@@ -18,7 +18,7 @@ body {
     -moz-font-feature-settings: 'kern' 1;
     -o-font-feature-settings: 'kern' 1;
     text-rendering: geometricPrecision;
-    background-color:#fff0f0;
+    background-color:#fff7f5;
 }
 
 img {
@@ -162,8 +162,8 @@ cite {
 }
 
 .navbar-default .navbar-nav li.active a {
-	background-color: pink;
-	color: #fe0000;
+	background-color: #000;
+	color: #fff;
 }
 
 .navbar-default .navbar-nav li.active a:hover,
@@ -184,11 +184,11 @@ cite {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #fe0000;
+    border-color: #000;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #fe0000;
+    background-color: #000;
 }
 
 .navbar-default .navbar-toggle:focus,
@@ -267,9 +267,9 @@ cite {
 /* ------- buttons ------- */
 
 .btn-primary {
-    background-color: rgba(254,0,0,0.75);
+    background-color: #000;
     color: #fff;
-    border: solid 1px #fe0000;
+    border: solid 1px #000;
 	border-radius: 0;
 	font-size: 1.8rem;
     font-weight: 400;
@@ -374,7 +374,7 @@ h6 a:hover {
 .meta-info a:active,
 .meta-info a:link,
 .tags a:visited {
-	color: #999999;
+	color: #a95656;
 }
 
 .tags a:hover {
@@ -406,8 +406,8 @@ h6 a:hover {
 .postone-title {
 	background: rgba(255,255,255,0.7);
 	padding: 20px 10px;
-	border-top: 2px solid #fe0000;
-	border-bottom: 2px solid #fe0000;
+	border-top: 2px solid #000;
+	border-bottom: 2px solid #000;
 }
 
 .post-one .tags, .post-one .meta-info {
@@ -415,7 +415,7 @@ h6 a:hover {
 	color: #ffffff;
 	display: inline-block;
 	padding: 5px 10px;
-	background: #fe0000;
+	background: #000;
 }
 
 @media screen and ( max-width: 400px ) {
@@ -448,7 +448,7 @@ h6 a:hover {
 .post-other-list .meta-info,
 .post-other .meta-info {
 	padding-top: 10px;
-	border-top: 1px solid #fe0000;
+	border-top: 1px solid #000;
 }
 
 .post-other-list h3 {
@@ -552,7 +552,7 @@ h6 a:hover {
 }
 
 .cp-social-share i {
-	border: 1px solid #fe0000;
+	border: 1px solid #000;
 	border-radius: 2px;
     height: 25px;
     width: 25px;
@@ -625,7 +625,7 @@ h6 a:hover {
 .newer-posts {
     position: absolute;
     display: inline-block;
-    border: #fe0000 1px solid;
+    border: #000 1px solid;
     text-decoration: none;
     border-radius: 2px;
     -o-transition: .3s;
@@ -759,7 +759,7 @@ h6 a:hover {
 	display: block;
 	position: relative;
 	margin-bottom: 2.6rem;
-	border-top: 2px solid #fe0000;
+	border-top: 2px solid #000;
 }
 
 .cp-sidebar .widget span {
@@ -772,7 +772,7 @@ h6 a:hover {
 	display: inline-block;
 	padding: 10px;
 	color: #fff;
-	background: #fe0000;
+	background: #000;
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -819,7 +819,7 @@ h6 a:hover {
 }
 
 .cp-contacts i {
-	background: #fe0000;
+	background: #000;
 	border-radius: 2px;
     height: 25px;
     width: 25px;
@@ -842,8 +842,8 @@ h6 a:hover {
 .cp-signup {
 	position: relative;
 	padding: 7.5rem 5rem;
-	border-top: 2px solid #fe0000;
-	border-bottom: 2px solid #fe0000;
+	border-top: 2px solid #000;
+	border-bottom: 2px solid #000;
 	width: 100%;
 	background-image: url('http://s10.favim.com/orig/160311/aesthetic-alternative-girl-glitch-Favim.com-4071685.png');
 	background-size: cover;
@@ -922,11 +922,11 @@ footer .social-share a {
 }
 
 footer .social-share a.twitter-share {
-    background-color: #1AB4EF;
+    background-color: #000;
 }
 
 footer .social-share a.facebook-share {
-    background-color: #3B5898;
+    background-color: #000;
 }
 
 footer .social-share a.googleplus-share {
@@ -934,11 +934,11 @@ footer .social-share a.googleplus-share {
 }
 
 footer .social-share a.youtube-share {
-    background-color: #e52d27;
+    background-color: #000;
 }
 
 footer .social-share a.instagram-share {
-    background-color: #2e5e86;
+    background-color: #000;
 }
 
 footer .social-share a.rss-subscribe {
@@ -953,7 +953,7 @@ footer .social-share a i {
     position: fixed;
     right: 30px;
     bottom: 0;
-    background: rgba(254, 0, 0, 0.75);
+    background: rgba(0, 0, 0, 0.75);
     color: #ffffff;
     text-align: center;
     z-index: 10;
