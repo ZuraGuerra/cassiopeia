@@ -984,10 +984,11 @@ h6 a:hover {
     width: 100%;
 	background-size: cover;
     background-position: 50% 50%;
+  background-color:#ffa500;
+  background-blend-mode: overlay;
 }
 
 .ep-content-overlay {
-	background-color: rgba(0,0,0,0.5);
 	width: 100%;
 	height: auto;
 	-webkit-transition: background .5s ease-in-out;
