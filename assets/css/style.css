@@ -406,6 +406,10 @@ h6 a:hover {
   background-blend-mode: color-burn;
 }
 
+.post-cover-bg:hover {
+  background-color:pink;
+}
+
 .post-one .post-content {
 	position: absolute;
 	bottom: 10px;
