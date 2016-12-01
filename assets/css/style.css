@@ -18,6 +18,7 @@ body {
     -moz-font-feature-settings: 'kern' 1;
     -o-font-feature-settings: 'kern' 1;
     text-rendering: geometricPrecision;
+    background-color:#fff0f0;
 }
 
 img {
@@ -60,7 +61,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Droid Serif', arial, sans-serif;
 	font-weight: normal;
 	-ms-word-wrap: break-word;
-	word-wrap: break-word;  
+	word-wrap: break-word;
 }
 
 h1{
@@ -114,7 +115,7 @@ cite {
 	padding: 2rem 0;
 	position: relative;
 	display: block;
-	background: #ebebeb;
+	background: transparent;
 }
 
 @media screen and ( max-width: 728px ) {
@@ -140,6 +141,7 @@ cite {
 /* ------- navigation ------- */
 .navbar-default {
     background-color: #f7f7f7;
+    background-image: url("https://secure.static.tumblr.com/6d52db82ce7e86e630112a44179b05e8/lmim0mm/raRn76q01/tumblr_static_tumblr_static_dqu5vepyj74sk8000ccokw44g_640.png");
     border-color: #e7e7e7;
 }
 
@@ -160,7 +162,7 @@ cite {
 }
 
 .navbar-default .navbar-nav li.active a {
-	background-color: #ebebeb;
+	background-color: pink;
 	color: #fe0000;
 }
 
@@ -189,7 +191,7 @@ cite {
     background-color: #fe0000;
 }
 
-.navbar-default .navbar-toggle:focus, 
+.navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
     background-color: transparent;
 }
@@ -607,7 +609,7 @@ h6 a:hover {
 	.pagination {
 		font-size: 1.1rem;
 	}
-	
+
 	.pagination a {
 		padding: 0.25rem 0.75rem;
 	}
@@ -843,7 +845,7 @@ h6 a:hover {
 	border-top: 2px solid #fe0000;
 	border-bottom: 2px solid #fe0000;
 	width: 100%;
-	background-image: url('../images/newsletter-subscription.jpg');
+	background-image: url('http://s10.favim.com/orig/160311/aesthetic-alternative-girl-glitch-Favim.com-4071685.png');
 	background-size: cover;
     background-position: 50% 50%;
 }
@@ -862,7 +864,7 @@ h6 a:hover {
 	.cp-signup {
 		padding: 5rem 2.5rem;
 	}
-	
+
 	.cp-signup .newsletter h1 {
 		font-size: 3.3rem;
 	}
@@ -995,4 +997,3 @@ footer .social-share a i {
 	color: #fff;
 	margin: 5rem 0 0;
 }
-
