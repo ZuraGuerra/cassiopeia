@@ -1084,6 +1084,9 @@ h6 a:hover {
     letter-spacing: 1px;
 }
 
+#search-field {
+  border-top-left-radius: 50px;
+}
 /* ------- Footer ------- */
 
 footer {
