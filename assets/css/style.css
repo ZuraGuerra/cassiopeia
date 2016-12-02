@@ -304,9 +304,10 @@ cite {
 
 /* ------- navigation ------- */
 .navbar-default {
-    background-color: #f7f7f7;
-    background-image: url("http://orig11.deviantart.net/a6ee/f/2011/267/d/8/black_grid_lines_by_villasiris-d4ard5r.png");
-    border-color: #e7e7e7;
+  background-color: #f7f7f7;
+  background-image: url("http://orig11.deviantart.net/a6ee/f/2011/267/d/8/black_grid_lines_by_villasiris-d4ard5r.png");
+  border-color: #e7e7e7;
+  background-color: #848484;
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
@@ -336,7 +337,7 @@ cite {
 }
 
 .navbar-default .navbar-nav li a {
-	color: #000;
+	color: #fff;
 	text-transform: uppercase;
 	font-weight: 400;
 	letter-spacing: 1px;
@@ -998,6 +999,7 @@ h6 a:hover {
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 1px;
+  font-family: Paragama, monospace;
 }
 
 .editors-pick h3 {
@@ -1117,6 +1119,12 @@ footer {
     background-image:url("http://orig11.deviantart.net/a6ee/f/2011/267/d/8/black_grid_lines_by_villasiris-d4ard5r.png");
     font-size: 1.4rem;
 	padding: 5rem;
+  background-color: #848484;
+  color:white;
+}
+
+footer a {
+  color:#fee900 !important;
 }
 
 @media screen and ( max-width: 768px ) {
