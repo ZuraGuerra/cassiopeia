@@ -1,4 +1,37 @@
 {
-	"name" : "Chopstick",
-	"version": "1.1.0"
+	"name" : "Cassiopeia",
+	"version": "1.0.0",
+	"description": "A theme inspired by the vaporwave a e s t h e t i c.",
+	"license": "MIT",
+	"engines": {
+		"ghost": ">=0.9.0 <1.0.0"
+	},
+	"demo": "https://futurologi.co",
+	"author": {
+		"name": "Zura Guerra",
+		"email": "hey@zura.space",
+		"url": "http://zura.space"
+	},
+	"gpm": {
+		"type": "theme",
+		"categories": [
+			"Professional",
+			"Vaporwave",
+			"Millenial",
+			"Glitch",
+			"Responsive"
+		]
+	},
+	"keywords": [
+		"millenial",
+		"glitch",
+		"vaporwave",
+		"professional",
+		"responsive"
+	],
+	"repository": {
+		"type": "git",
+    "url": "https://github.com/ZuraGuerra/cassiopeia.git"
+	},
+	"bugs": "https://github.com/ZuraGuerra/cassiopeia/issues"
 }
