@@ -573,6 +573,22 @@ h6 a:hover {
   background-color:pink;
 }
 
+.post-site-cover-bg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  background-position: center;
+  background-size: cover;
+  background-color: #ff89b5;
+  background-blend-mode: color-dodge;
+}
+
+.post-site-title {
+  position:absolute;
+  background-color:#fee900;
+  box-shadow: 5px 0 0 #fee900,-5px 0 0 #fee900;
+}
+
 .post-one .post-content {
 	position: absolute;
 	bottom: 10px;
@@ -685,7 +701,9 @@ h6 a:hover {
 }
 
 .cp-author .author-img-avatar {
-    max-height: 100px;
+  max-height: 100px;
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 
 .cp-author .author-meta {

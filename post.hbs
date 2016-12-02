@@ -6,16 +6,21 @@
 			<article class="{{post_class}}">
 				{{#post}}
 					<header class="post-header">
-						<h2>{{{title}}}</h2>
-						<div class="meta-info">
+						{{!-- <div class="meta-info">
 							{{#author}}
 							<span class="author">
 								<a href="{{url}}">{{name}}</a>
 							</span>
 							{{/author}}
-						</div>
+						</div> --}}
 						{{#if image}}
-							<img class="featured-image" src="{{image}}" alt="{{{title}}}" title="{{{title}}}" />
+						  <div class="">
+								<h2><span class="post-site-title">{{{title}}}</span></h2>
+								<div class="post-site-cover-bg" style="background-image:url({{image absolute="true"}});">
+									<img src="{{image}}" style="visibility:hidden;"/>
+								</div>
+						  </div>
+							{{!-- <img class="featured-image" src="{{image}}" alt="{{{title}}}" title="{{{title}}}" /> --}}
 						{{else}}
 							<img class="featured-image" src="{{asset "images/no-image.jpg"}}" />
 						{{/if}}
