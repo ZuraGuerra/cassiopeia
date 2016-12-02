@@ -318,6 +318,7 @@ cite {
     border-radius: 0;
 	border: none;
 	margin-bottom: 0;
+  font-family: Paragama, monospace;
 }
 
 @media screen and ( min-width: 768px ) {
@@ -446,11 +447,12 @@ cite {
 	-ms-transition: background .5s ease-in-out;
 	-o-transition: background .5s ease-in-out;
 	transition: background .5s ease-in-out;
+  font-family: Paragama, monospace;
 }
 
 .btn-primary:hover {
-    background-color: #e92c0c;
-    border: solid 1px #e92c0c;
+    background-color: #06c5c0;
+    border: solid 1px #06c5c0;
 }
 
 /* ------- Links ------- */
@@ -492,6 +494,11 @@ a:hover{
 
 .tags {
 	text-transform: uppercase;
+  font-family: Paragama, monospace;
+}
+
+.post-content h3 {
+  font-family: Sofa, sans-serif;
 }
 
 h1 a,
@@ -527,7 +534,7 @@ h3 a:hover,
 h4 a:hover,
 h5 a:hover,
 h6 a:hover {
-	color:#e92c0c;
+	color:#06c5c0;
 }
 
 .tags,
@@ -586,6 +593,8 @@ h6 a:hover {
 }
 
 .post-site-title {
+  font-family: Paragama, monospace;
+  font-weight: 700;
   position:absolute;
   background-color:#fee900;
   box-shadow: 5px 0 0 #fee900,-5px 0 0 #fee900;
@@ -670,6 +679,7 @@ h6 a:hover {
 .post-title-bg {
   background-color:#fee900;
   box-shadow: 5px 0 0 #fee900,-5px 0 0 #fee900;
+  font-family: Sofa, sans-serif;
 }
 
 .cp-author {
@@ -694,11 +704,33 @@ h6 a:hover {
 	position: relative;
     padding: 15px;
     z-index: 1;
+    color: black;
+  font-family: Paragama, monospace;
+}
+
+.author-details h3 {
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: Sofa, sans-serif;
+  background-color: #fee900;
+  color: black;
+  box-shadow: 5px 0 0 #fee900,-5px 0 0 #fee900;
+}
+
+.author-bio {
+  font-family: Paragama, monospace;
 }
 
 .author-details > a > h4 {
   letter-spacing: 0.5rem;
   text-transform: uppercase;
+  font-weight: 700;
+  font-family: Paragama, monospace;
+  background-color: #fee900;
+  color: black;
+  box-shadow: 5px 0 0 #fee900,-5px 0 0 #fee900;
+  font-family: Sofa, sans-serif;
   font-weight: 700;
 }
 
@@ -720,6 +752,7 @@ h6 a:hover {
 }
 
 .cp-author .author-meta div {
+  color: black;
 	white-space: nowrap;
     height: 25px;
     line-height: 25px;
@@ -729,6 +762,8 @@ h6 a:hover {
     letter-spacing: 1px;
 	margin-bottom: 1.6rem;
     text-transform: uppercase;
+    font-family: Sofa, sans-serif;
+    font-weight: 700;
 }
 
 .cp-author .author-meta i {
@@ -741,7 +776,7 @@ h6 a:hover {
 }
 
 .cp-author .author-meta a {
-	color: #000;
+	color: #06c5c0 !important;
 }
 
 .glyphicon-list-alt:before,
@@ -779,8 +814,9 @@ h6 a:hover {
 }
 
 .cp-social-share i:hover {
-	border: 1px solid #fe0000;
-	background: #fe0000;
+	border: 1px solid #06c5c0;
+	background: #06c5c0;
+  color:black;
 }
 
 .cp-featured {
@@ -789,6 +825,10 @@ h6 a:hover {
 	top: 10px;
 	right: 25px;
 	z-index: 10;
+}
+
+.tags a {
+  color: #06c5c0 !important;
 }
 
 .cp-featured i {
@@ -803,6 +843,7 @@ h6 a:hover {
 
 /* ------- Pagination ------- */
 .pagination {
+    font-family: Paragama, monospace;
     position: relative;
     width: 100%;
     margin: 4rem auto;
@@ -855,8 +896,8 @@ h6 a:hover {
 .newer-posts-single:hover,
 .older-posts:hover,
 .newer-posts:hover {
-    border: #fe0000 1px solid;
-	background: #fe0000;
+  border: #06c5c0 1px solid;
+  background: #06c5c0;
 }
 
 .older-posts {
@@ -935,6 +976,8 @@ h6 a:hover {
     letter-spacing: 1px;
 	margin-bottom: 1.6rem;
     text-transform: uppercase;
+    font-family: Sofa, sans-serif;
+    font-weight: 700;
 }
 
 .author-meta i {
@@ -947,33 +990,38 @@ h6 a:hover {
 }
 
 .author-meta a {
-	color: #000;
+	color: #06c5c0;
 }
 
 .author a {
   letter-spacing: 0.4rem;
   text-transform: uppercase;
   font-weight: 700;
+  font-family: Paragama, monospace;
 }
 
 .tag-header span {
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #666;
-    display: inline-block;
-    border-bottom: 1px solid #d8d8d8;
-    padding-bottom: 3px;
-    margin-bottom: 5px;
+  font-family: Sofa, sans-serif;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #666;
+  display: inline-block;
+  border-bottom: 1px solid #d8d8d8;
+  padding-bottom: 3px;
+  margin-bottom: 5px;
 }
 
 .tag-header h1 {
-    margin: 10px 0 5px;
-	text-transform: capitalize;
+  margin: 10px 0 5px;
+  text-transform: uppercase;
+  font-family: Paragama, monospace;
+  letter-spacing: 1rem;
 }
 
 .tag-description {
 	margin-bottom: 0;
+  font-family: Sofa, sans-serif;
 }
 
 /* ------- Widgets ------- */
@@ -1010,6 +1058,11 @@ h6 a:hover {
 
 .editors-pick h3 a {
 	color: #fff;
+  font-family: Sofa, sans-serif;
+}
+
+.post-content {
+  font-family:Sofa, sans-serif;
 }
 
 .ep-content {
@@ -1037,6 +1090,7 @@ h6 a:hover {
 
 #cp-contacts {
 	background: #fff;
+  font-family: Sofa, sans-serif;
 }
 
 .cp-contacts {
@@ -1081,7 +1135,8 @@ h6 a:hover {
 
 .cp-signup .newsletter h1 {
     letter-spacing: 1px;
-    font-weight: 400;
+    font-weight: 700;
+    font-family: Sofa, sans-serif;
 	margin-bottom: 2rem;
 }
 
@@ -1097,6 +1152,7 @@ h6 a:hover {
 
 .cp-signup .newsletter p {
     margin-bottom: 3rem;
+    font-family: Sofa, sans-serif;
 }
 
 .cp-signup .form-control {
@@ -1136,6 +1192,7 @@ footer a {
 footer .footer-links p {
 	text-align: left;
 	margin-top: 2rem;
+  font-family: Paragama, monospace;
 }
 
 footer .social-share {
@@ -1240,6 +1297,7 @@ footer .social-share a i {
 
 .error-message h1, .error-message h2{
   color:#fff;
+  font-family: Paragama, monospace;
   top:20px;
   left:20px;
   font-size:60px;
