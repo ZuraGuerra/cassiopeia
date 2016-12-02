@@ -61,6 +61,7 @@ iframe {
   position: relative;
   width: 400px;
   margin: 1rem auto;
+  font-family: Helvetica, PT Sans, Arial, sans-serif;
 }
 
 @keyframes noise-anim {
